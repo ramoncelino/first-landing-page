@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="././style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div id="home" class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home"><img src="./Images/tiger.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Início</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#grid-one">Grid-One</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#grid-two">Grid-Two</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Pede pra Nerfar, Noob!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro obcaecati cumque incidunt?
+                    Officiis,
+                    illo nisi a, id ratione earum autem magnam odit delectus unde in dolorem maxime error impedit?
+
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./Images/react.svg" alt="Logo do React.js">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 Jobs</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam optio eum incidunt laboriosam
+                dolorem, beatae eveniet iusto quidem totam distinctio nemo, neque inventore dignissimos exercitationem
+                quae adipisci rerum odit accusamus?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur ea dicta ratione tempore quo
+                blanditiis obcaecati nihil commodi, sapiente recusandae laborum fugit ex inventore numquam tempora, sint
+                fuga esse!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa distinctio adipisci voluptatibus
+                amet vero? Placeat voluptates ab, rem veritatis laborum id dolorum at ut. Nulla dignissimos temporibus
+                laudantium! Sequi!</p>
+        </div>
+
+    </section>
+
+    <section id="grid-one" class="main-content grid-one main-bg section">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">Top 3 Jobs</h2>
+            <p class="grid-description">delectus</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio aliquam ducimus fugiat,
+                        repudiandae ad quia facere! Explicabo nesciunt nihil natus esse aliquam, molestias quaerat
+                        minima
+                        sunt veniam itaque porro.</p>
+                </article>
+
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aut cupiditate voluptatem ipsum
+                        ducimus error nisi tempora repudiandae ut, possimus amet nihil aliquid alias itaque vero, iusto
+                        magni harum beatae?</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aut cupiditate voluptatem ipsum
+                        ducimus error nisi tempora repudiandae ut, possimus amet nihil aliquid alias itaque vero, iusto
+                        magni harum beatae?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one section white-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">delectus</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="./Images/ramon.jpg" />
+                </div>
+                <div class="gallery-img">
+                    <img src="./Images/ciro.jpeg" />
+                </div>
+                <div class="gallery-img">
+                    <img src="./Images/emily.jpg" />
+                </div>
+                <div class="gallery-img">
+                    <img src="./Images/igor.jpg" />
+                </div>
+                <div class="gallery-img">
+                    <img src="./Images/rachel.jpg" />
+                </div>
+                <div class="gallery-img">
+                    <img src="./Images/carlos.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="main-content grid-one main-bg section">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">Top 3 Jobs</h2>
+            <p class="grid-description">delectus</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio aliquam ducimus fugiat,
+                        repudiandae ad quia facere! Explicabo nesciunt nihil natus esse aliquam, molestias quaerat
+                        minima
+                        sunt veniam itaque porro.</p>
+                </article>
+
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aut cupiditate voluptatem ipsum
+                        ducimus error nisi tempora repudiandae ut, possimus amet nihil aliquid alias itaque vero, iusto
+                        magni harum beatae?</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aut cupiditate voluptatem ipsum
+                        ducimus error nisi tempora repudiandae ut, possimus amet nihil aliquid alias itaque vero, iusto
+                        magni harum beatae?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam optio eum incidunt laboriosam
+                dolorem, beatae eveniet iusto quidem totam distinctio nemo, neque inventore dignissimos exercitationem
+                quae adipisci rerum odit accusamus?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur ea dicta ratione tempore quo
+                blanditiis obcaecati nihil commodi, sapiente recusandae laborum fugit ex inventore numquam tempora, sint
+                fuga esse!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa distinctio adipisci voluptatibus
+                amet vero? Placeat voluptates ab, rem veritatis laborum id dolorum at ut. Nulla dignissimos temporibus
+                laudantium! Sequi!</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Teste</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Pede pra Nerfar, Noob!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro obcaecati cumque incidunt?
+                    Officiis,
+                    illo nisi a, id ratione earum autem magnam odit delectus unde in dolorem maxime error impedit?
+
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./Images/react.svg" alt="Logo do React.js">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Entre em Contato Conosco</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Comentário</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer id="footer" class="footer white-bg">Feito com <span class="heart">❤</span> por Ramon Celino</footer>
+
+    <a class="back-to-top" href="#">↩</a>
+</body>
+
+</html>
